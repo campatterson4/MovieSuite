@@ -33,11 +33,16 @@ body {
     display: grid;
     grid-template-rows: repeat(7, 12.5rem);
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .img {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.05);
 }
 
 /* ---- GRID AREAS ---- */
