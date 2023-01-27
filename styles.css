@@ -169,4 +169,7 @@ body {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
     }
+    .overlay {
+        font-size: 1rem;
+    }
 }
