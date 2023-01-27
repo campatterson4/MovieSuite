@@ -150,8 +150,13 @@ body {
 
 .img {
     object-fit: cover;
+    opacity: .9;
     width: 100%;
     height: 100%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.img:hover {
+    opacity: 1;
 }
