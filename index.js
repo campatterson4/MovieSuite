@@ -4,3 +4,4 @@ let scroll = ScrollReveal({
 });
 
 scroll.reveal(".gallery", {origin: "bottom"})
+scroll.reveal("h3", {origin: "left"})
